@@ -1,2 +1,28 @@
 * {margin:0; padding:0; box-sizing:border-box; border:none; outline:none;}
 li {list-style:none;}
+
+body {
+  background: #fff;
+  padding: 10px;
+}
+
+.very-specific-design {
+  width: 1920px;
+  height: 1080px;
+  padding: 10px;
+  text-align: center;
+  background: white;
+  position: relative;
+
+  transform-origin: center center;
+}
+
+.scaleable-wrapper {
+  padding: 10px;
+  resize: both;
+  position: relative;
+     ;
+}
+.experiment {
+  
+}
